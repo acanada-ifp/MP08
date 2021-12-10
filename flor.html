@@ -10,6 +10,8 @@
         background-color: lightpink;
         border-radius: 0 100px;
         position: relative;
+        top: 300px;
+        left: 300px;
         transform-origin: right bottom;
       }
       .primer{
@@ -55,9 +57,27 @@
         position: relative;
 
       }
+      .flor{
+        animation-name: rotacio;
+        animation-duration: 2.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+        transform-origin: 200px 200px;
+
+      }
+      @keyframes rotacio{
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+      }
     </style>
   </head>
   <body>
+  <div class="flor">
     <div class="petal primer"></div>
     <div class="petal segon"></div>
     <div class="petal tercer"></div>
@@ -65,6 +85,6 @@
     <div class="petal cinque"></div>
     <div class="petal sise"></div>
     <div class="cor"></div>
-
+</div>
   </body>
 </html>
