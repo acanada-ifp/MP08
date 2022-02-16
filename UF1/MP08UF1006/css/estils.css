@@ -1,0 +1,62 @@
+.taulell{
+width:800px;
+height:800px;
+background-color:brown;
+position: relative;
+margin: 0 auto;
+}
+
+.filera .casella {
+  width: 100px;
+  height: 100px;
+  background-color:rgb(205, 241, 101);
+  float:left;
+}
+.filera:nth-child(odd) .casella:nth-child(even){
+  background-color: rgb(101, 98, 99);
+}
+
+.filera:nth-child(even) .casella:nth-child(odd){
+  width: 100px;
+  height: 100px;
+  background-color:rgb(101, 98, 99);
+  float:left;
+}
+
+.filera:nth-child(even) .casella:nth-child(even){
+  background:rgb(205, 241, 101);
+}
+
+b{
+display:block;
+width:80px;
+height:80px;
+border-radius:40px;
+margin:10px;
+background-color: white;
+background-image: radial-gradient(farthest-corner at 0px 0px,rgb(255, 255, 255) 10%, rgb(156, 156, 156));
+  box-shadow: 3px 3px 5px black;
+}
+.filera:nth-child(n+3)
+b{display:none;}
+.filera:nth-child(n+7)
+b{
+display:inline-block;
+background-color: black;
+background-image: radial-gradient(farthest-corner at 0px 0px,#999 10%, #333);
+  box-shadow: 3px 3px 5px;
+
+}
+
+b:hover {
+  position: relative;
+  top: 100px;
+  transition: 0.1s;
+}
+.filera:nth-child(n+7) b:hover{
+  position: relative;
+  top: -100px;
+  transition: 0.1s;
+}
+
+}

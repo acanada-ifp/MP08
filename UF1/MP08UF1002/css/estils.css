@@ -1,0 +1,52 @@
+body{
+  font-size: 16px;
+}
+div{
+  background-color: rgb(172, 247, 12);
+  height: 10em;
+  width: 10em;
+
+}
+p:first-child{
+  color: lightgreen;
+}
+
+.flotatE{
+  float: left;
+  margin: 0 1em 1em 0;
+    background-image: url(../img/images.jpeg);
+      background-size: 100% 100%;
+}
+.floatR{
+  float: right;
+  margin: 0 0 1em 1em;
+    background-image: url(../img/fat-pikachu-sword-shield-anime-meme-tweet-1.png);
+      background-size: cover;
+      background-position: center;
+}
+.capitular{
+  float: left;
+  margin: 0 0.5em 0.5em 0;
+  background-image: url(../img/descarga.jpeg);
+  background-size: 100% 100%;
+  width: 2em;
+  height: 2em;
+}
+h2{
+  clear:both;
+}
+span{
+  color: lightgreen;
+  visibility: hidden;
+  display: none;
+}
+.columna{
+  width: 40%;
+  margin: 0 5%;
+}
+.esquerra{
+  float: left;
+}
+.dreta{
+  float: right;
+}

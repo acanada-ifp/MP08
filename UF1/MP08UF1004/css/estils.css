@@ -1,0 +1,39 @@
+
+div{
+  background-color: rgb(48, 190, 35);
+  margin: 13.3px;
+  overflow: visible;
+  font-family: sans-serif;
+
+
+}
+
+.contenedor{
+  width: 1200px;
+  background-color: white;
+}
+}
+.cap, .peu{
+  width: 1200px;
+  height: 200px;
+  clear: both;
+  background-color: rgb(209, 238, 174);
+  text-align: center;
+  color: white;
+
+
+}
+.primero, .tercero{
+    width: 200px;
+    float: left;
+    background-color: lightgreen;
+}
+
+.segundo{
+  width: 720px;
+  float: left;
+  height: 500px;
+
+
+
+}

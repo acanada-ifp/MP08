@@ -1,0 +1,132 @@
+body{
+  background-color: lightgrey;
+  margin: 0px;
+  font-family: Helvetica,Arial, sans-serif;
+  color: #666;
+  font-size: 13px;
+
+}
+h1{
+  background-color: ;
+  color: #ccc;
+  margin: 0;
+  width: 390px;
+  padding: 30px;
+}
+p{
+  background-color: ;
+font-size: 18px;
+  margin: 0;
+  line-height: 22px;
+  width: 390px;
+  padding: 0 30px;
+  text-indent: 18px;
+
+}
+.blanca{
+  background-color: white;
+
+}
+.verda{
+  background-color: #6C3;
+  height: 550px;
+
+}
+.clara{
+  background-color: #EEECEE;
+}
+.fosca{
+  background-color: #333333;
+}
+#coneix{
+  background-image: url(../img/img-hero-full-list.png);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+#menu{
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 90px;
+}
+#tot{
+  height: 641px;
+  background-image: url(../img/allinone.jpg);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+#util{
+  height: 500px;
+  background-image: url(../img/curator-short.png);
+  background-repeat: no-repeat;
+  background-position: 400px;
+
+}
+#descarrega{
+  height: 200px;
+  text-align: center;
+}
+#rapid{
+  height: 550px;
+  background-image: url(../img/img-hero-full-list.png);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+#arreu{
+  height: 643px;
+  background-image: url(../img/anywhere.png);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+#facil{
+  background-image: url(../img/mobile-share.png);
+  background-repeat: no-repeat;
+  background-position: 400px 13px;<
+}
+#descarrega img{
+  padding: 30px;
+
+}
+li{
+  background-color: lightgrey;
+  margin: 0;
+  display: inline-block;
+  list-style-type: none;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 6px;
+}
+li:hover{
+  background-color: lightgreen;
+}
+ul{
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  margin: 0;
+}
+a:link{
+  color:orange;
+}
+a:hover{
+  background-color: white;
+}
+a:active{
+  background-color: black;
+  color: red;
+}
+a:visited{}
+#torna{
+  height: 100px;
+  width: 100px;
+  background-color: yellowgreen;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 50px;
+  font-size: 80px;
+  text-align: center;
+  line-height: 120px;
+  box-shadow: black 7px 5px 5px;
+  color: black;
+}
