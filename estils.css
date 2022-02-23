@@ -1,10 +1,15 @@
 body{
-background-color: black;
+background-color: white;
 }
 .uf1{
-  color: white;
+  color: black;
   font-size: 2em;
   border: 10px;
-  text-shadow: 0 0 50px #00ffe8;
-  font-family: shizuru;
+}
+.primer{
+  float: left;
+}
+
+h1{
+  clear: both;
 }
