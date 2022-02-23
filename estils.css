@@ -1,0 +1,10 @@
+body{
+background-color: black;
+}
+.uf1{
+  color: white;
+  font-size: 2em;
+  border: 10px;
+  text-shadow: 0 0 50px #00ffe8;
+  font-family: shizuru;
+}
