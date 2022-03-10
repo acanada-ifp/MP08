@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background-image: url(img/fondoportfolio.jpg);
+  background-image: url(img/fondoportfolio_uf.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -9,22 +9,22 @@ div{
   align-items: center;
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 100px;
 
 }
 li {
   transition-duration: 0.4s;
-  height: 400px;
-  width:400px;
+  height: 200px;
+  width:200px;
   float:left;
-  font-size: 10em;
+  font-size: 4em;
   display:block;
   font-family: permanent marker;
   text-align: center;
   position: relative;
   margin: 30PT;
   border-radius: 100%;
-  top: 50px;
+  top: 25px;
   color: white;
   align-items: center;
   display: flex;
@@ -34,7 +34,7 @@ li {
 }
 
 li:hover {
-  background-color: #4CAF50;
+  background-color: #9805f2;
   color: white;
   filter: blur(0);
 }
