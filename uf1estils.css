@@ -3,6 +3,7 @@ body{
   background-image: url(img/fondoportfolio_uf.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  background-size: cover;
 }
 div{
   height: auto;
@@ -17,7 +18,7 @@ li {
   height: 200px;
   width:200px;
   float:left;
-  font-size: 4em;
+  font-size: 5em;
   display:block;
   font-family: permanent marker;
   text-align: center;
