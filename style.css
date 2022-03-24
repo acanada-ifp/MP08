@@ -25,7 +25,7 @@ li {
   font-family: permanent marker;
   text-align: center;
   position: relative;
-  margin: 30PT;
+  margin: 30pt;
   border-radius: 100%;
   top: 50px;
   color: white;
@@ -37,7 +37,7 @@ li {
 }
 
 li:hover {
-  background-color: #4CAF50;
+  background-color: #a8db15;
   color: white;
   filter: blur(0);
 }
