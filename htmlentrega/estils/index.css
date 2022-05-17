@@ -39,47 +39,6 @@
   }
 
 }
-@media screen and (min-width:951px) and (min-width:650px) {
-  #poster{
-    bottom:  -10px;
-    border: 3px solid white;
-    box-shadow:10px 10px #A2C037;
-  }
-  .poster{
-    float: left;
-    width: 1000px;
-    height: 1000px;
-    margin-top: 200px;
-    margin-left: 5%;
-
-
-  }
-  .verde {
-    width: 140px;
-    height: 140px;
-    margin: 10px;
-    background-color: #A2C037;
-    float: left;
-
-  }
-  #content {
-
-      position: relative;
-      bottom: 60px;
-      top:80px;
-      left: 0;
-      right: 0;
-      z-index:500;
-
-      float: left;
-      width: 400px;
-      height: auto;
-      margin-top: 10%;
-
-
-  }
-
-}
 @media screen and (max-width:649px) {
   .poster {
     display: none;
