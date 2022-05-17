@@ -164,7 +164,7 @@ h1 {
   background-repeat: no-repeat;
 }
 #dos {
-  background-image: url(../img/instrucciones.png);
+  background-image: url(../img/file.png);
   background-position: center;
   background-size: 80px auto;
   background-repeat: no-repeat;
@@ -188,7 +188,7 @@ h1 {
   background-repeat: no-repeat;
 }
 #seis {
-  background-image: url(../img/puntitos.png);
+  background-image: url(../img/ellipsis.png);
   background-position: center;
   background-size: 80px auto;
   background-repeat: no-repeat;
