@@ -1,4 +1,69 @@
+@media screen and (min-width:951px) and (orientation:landscape) {
+  #poster{
+    bottom:  -10px;
+    border: 3px solid white;
+    box-shadow:10px 10px #A2C037;
+  }
+  .poster{
+    float: left;
+    width: 1000px;
+    height: 1000px;
+    margin-top: 200px;
+    margin-left: 5%;
 
+
+  }
+  .verde {
+    width: 140px;
+    height: 140px;
+    margin: 10px;
+    background-color: #A2C037;
+    float: left;
+
+  }
+  #content {
+
+      position: relative;
+      bottom: 60px;
+      top:80px;
+      left: 0;
+      right: 0;
+      z-index:500;
+
+      float: left;
+      width: 400px;
+      height: auto;
+      margin-top: 10%;
+
+
+  }
+
+}
+@media screen and (max-width:649px) {
+  .poster {
+    display: none;
+  }
+  .verde {
+    width: 140px;
+    height: 140px;
+    margin: 10px;
+    background-color: #A2C037;
+
+  }
+  #content {
+
+      position: relative;
+      margin: 0 auto;
+      margin-top:7rem;
+      z-index:500;
+      width: 160px;
+      height: 100%;
+
+
+
+  }
+
+}
 body {
 
     font-family:'Quicksand', Helvetica, Arial, sans-serif;
@@ -9,26 +74,10 @@ body {
     width:100%;
     background-color: white;
     text-align: center;
-    float: left;
-}
-#poster{
-  bottom:  -10px;
-  border: 3px solid white;
-  box-shadow:10px 10px #A2C037;
-}
-.poster{
-  float: left;
-  width: 1000px;
-  height: 1000px;
-  margin-top: 200px;
-
-
 }
 
-a{
-  font-size: 2em;
-  color: red;
-}
+
+
 h1 {
     font-size:24px;
     font-weight:normal;
@@ -42,46 +91,80 @@ h1 {
 
 #head {
     height: 80px;
-    position: absolute;
+    position: relative;
     top: 15px;
     left: 0;
     right: 0;
     z-index:2000;
-    background-image: url("img/");
+
     background-size: auto 80%;
     background-repeat: no-repeat;
 }
+.todo{
 
-#content {
-    background-color: #A2C037;
-    border: 3px solid white;
-    position: relative
-    bottom: 60px;
-    top:80px;
-    left: 0;
-    right: 0;
-    z-index:500;
+  height: 100%;
 
-    float: left;
-    width: 500px;
-    height: auto;
-    margin-top: 200px;
-
-
-}
-
-#content {
-display: block;
-border: 3px solid white;
 
 
 }
 
 .short {
 
-    height:100px;
-    width:auto;
-    margin: 30px auto 5px auto;
+    height:140px;
+    width: 140px;
+    align-items: center;
+
+
+}
+#uno {
+  background-image: url(../img/video.png);
+  background-position: center;
+  background-size: 80px auto;
+  background-repeat: no-repeat;
+}
+#dos {
+  background-image: url(../img/instrucciones.png);
+  background-position: center;
+  background-size: 80px auto;
+  background-repeat: no-repeat;
+}
+#tres {
+  background-image: url(../img/memoria.png);
+  background-position: center;
+  background-size: 80px auto;
+  background-repeat: no-repeat;
+}
+#cuatro {
+  background-image: url(../img/website.png);
+  background-position: center;
+  background-size: 80px auto;
+  background-repeat: no-repeat;
+}
+#cinco {
+  background-image: url(../img/apk.png);
+  background-position: center;
+  background-size: 80px auto;
+  background-repeat: no-repeat;
+}
+#seis {
+  background-image: url(../img/puntitos.png);
+  background-position: center;
+  background-size: 80px auto;
+  background-repeat: no-repeat;
+}
+.txt {
+  width: 140px;
+  height: 140px;
+  background-color: rgba(63, 94, 23, 0.8);
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+  line-height: 140px;
+  font-family:'Quicksand', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+#reducir {
+  font-size: 0.95em;
 }
 
 .long {
@@ -101,5 +184,14 @@ border: 3px solid white;
     left: 0;
     right:0;
     z-index:1000;
+
+}
+.txt:hover{
+  display: none;
+}
+a:hover{
+
+}
+.short:hover{
 
 }
